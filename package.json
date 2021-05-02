@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-mock-storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mock storage for mock storage api based on next.",
   "homepage": "https://github.com/afeiship/next-mock-storage",
   "author": {
@@ -42,5 +42,18 @@
   "dependencies": {
     "@jswork/next-stub-singleton": "^1.0.3"
   },
-  "keywords": []
+  "keywords": [
+    "next",
+    "mock",
+    "test",
+    "storage",
+    "nodejs",
+    "localstorage",
+    "sessionstorage",
+    "session",
+    "local",
+    "cookie",
+    "simulate",
+    "store"
+  ]
 }
