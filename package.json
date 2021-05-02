@@ -41,5 +41,6 @@
   },
   "dependencies": {
     "@jswork/next-stub-singleton": "^1.0.3"
-  }
+  },
+  "keywords": []
 }
