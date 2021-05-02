@@ -8,14 +8,14 @@
     methods: {
       _storage: {},
       // basic API
-      getItem: function (key) {
-        return this._storage[key] || null;
+      getItem: function (inKey) {
+        return this._storage[inKey] || null;
       },
-      setItem: function (key, val) {
-        this._storage[key] = val;
+      setItem: function (inKey, inValue) {
+        this._storage[inKey] = inValue;
       },
-      removeItem: function (key) {
-        delete this._storage[key];
+      removeItem: function (inKey) {
+        delete this._storage[inKey];
       },
       clear: function () {
         this._storage = {};
