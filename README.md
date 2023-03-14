@@ -15,7 +15,15 @@ npm install @jswork/str2kv
 ```js
 import str2kv from '@jswork/str2kv';
 
-// usage goes here.
+// default saparator is [:/@]
+const kmstr1 = '1id:value; 2id:value2; 3id:value3';
+const obj1 = str2kv(km2str);
+// { '1id': 'value', '2id': 'value2', '3id': 'value3' }
+
+// custom saparator
+const kmstr2 = '1id:value; 2id:value2; 3id:value3';
+const obj2 = str2kv(km2str, ':');
+// { '1id': 'value', '2id': 'value2', '3id': 'value3' }
 ```
 
 ## license

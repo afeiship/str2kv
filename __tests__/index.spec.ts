@@ -15,4 +15,14 @@ describe('api.basic', () => {
     expect(fn(kmstr2)).toEqual(expRes);
     expect(fn(kmstr3)).toEqual(expRes);
   });
+
+  test('cus sape use `=`', () => {
+    const kmstr = '1id=value; 2id=value2; 3id=value3';
+    const expRes = {
+      '1id': 'value',
+      '2id': 'value2',
+      '3id': 'value3',
+    };
+    expect(fn(kmstr, '=')).toEqual(expRes);
+  });
 });
